@@ -65,7 +65,7 @@ def LDL_driver():
 def check_cholesterol(cholesterol):
     if cholesterol < 200:
         return "Normal"
-    elif 200 <= HDL < 239:
+    elif 200 <= cholesterol < 239:
         return "Borderline high"
     else:
         return "high"
