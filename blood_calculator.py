@@ -16,6 +16,12 @@ def accept_input(test_name):
     return int(entry)
 
 
+def print_result(test_name, test_value, test_class):
+    out_string = "The test value of {} for {} is {}".format(test_value, test_name, test_class)
+    print(out_string)
+    return
+
+
 def check_HDL(HDL):
     if HDL >= 60:
         return "Normal"
